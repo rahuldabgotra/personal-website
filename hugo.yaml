@@ -1,0 +1,165 @@
+baseURL: https://mysite/
+languageCode: en-us
+title: Rahul Dabgotra
+theme: PaperMod
+# copyright: "© [Rahul Dabgotra](https://github.com/rahuldabgotra/rahuldabgotra.github.io/blob/main/LICENSE)"
+pagination:
+  disableAliases: false
+  pagerSize: 5
+  path: page
+
+menu: 
+  main:
+    - identifier: blogs
+      name: Blogs
+      url: /blogs/
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 2  
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 3
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 4
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags/
+    #   weight: 5
+    # - identifier: archives
+    #   name: Archives
+    #   url: /archives/
+    #   weight: 6
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: ExampleSite
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio]
+  # author: Me
+  # author: ["Me", "You"] # multiple authors
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
+  # label:
+  #   text: "RAHUL"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
+  
+  # home-info mode
+  homeInfoParams:
+    Title: "Hy, I’m Rahul"
+    Content: >
+      👋Welcome to my website!      
+      
+      - Here you’ll find a lot of insight about tech for my perspective😎.
+
+  socialIcons:
+    - name: Email
+      url: "mailto:rahuldabgo@gmail.com"
+    - name: Github
+      url: "https://github.com/rahuldabgotra"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/rahuldabgotra/"
+    - name: X
+      url: "https://x.com/rahuldabgotraa"
+    - name: Youtube
+      url: "https://www.youtube.com/@rahuldabgotra"
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
+      url: "https://ko-fi.com/rahuldabgotra"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+
+  # Page -----------------------
+  ShowBreadCrumbs: false
+  ShowReadingTime: false
+  UseHugoToc: false
+  showtoc: false
+  tocopen: false
+  ShowShareButtons: false
+  # ShareButtons: ["twitter", "linkedin", "reddit", "facebook", "whatsapp"]
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true  
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+
+  # editPost:
+  #   URL: "https://github.com/rahuldabgotra/mysite/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # Search: https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+# For search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    style: monokai
+    # anchorLineNos: true
+    # lineNos: true
+    noClasses: false
+
+# Privacy
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
