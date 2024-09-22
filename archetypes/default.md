@@ -1,13 +1,8 @@
 ---
 title: "{{ replace .File.ContentBaseName "-" " " | title }}"
-date: {{ .Date }}
-description: "Desc Text."
-tags: ["first"]
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+date: {{ .Date | time.Format ":date_full"}}
+time: {{ .Date | time.Format ":time_full"}}
+description: "About {{ replace .File.ContentBaseName "-" " " | title }}"
+tags: ["Linux", "Git", "JAVA", "Spring Boot", "Testing", "Database", "CI/CD"]
 draft: true
 ---
