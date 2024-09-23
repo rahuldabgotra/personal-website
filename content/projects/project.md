@@ -1,6 +1,5 @@
 ---
 title: "Project"
-description: "About Project"
 draft: false
 ---
 

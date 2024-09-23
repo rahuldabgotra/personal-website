@@ -2,7 +2,6 @@
 title: 'Create a Personal Website with Hugo and GitHub Actions'
 date: Sunday, September 1, 2024
 time: 10:51:46 pm India Standard Time
-description: "How to create a personal website using Hugo and deploy it on GitHub using GitHub Actions"
 tags: ["Hugo"]
 draft: false
 ---
