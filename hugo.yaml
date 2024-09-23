@@ -26,10 +26,10 @@ menu:
       name: Search
       url: /search/
       weight: 4
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags/
-    #   weight: 5
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
     # - identifier: archives
     #   name: Archives
     #   url: /archives/
