@@ -3,7 +3,7 @@ title: 'Create a Personal Website with Hugo and GitHub Actions'
 date: 2024-09-27
 tags: ["Hugo"]
 cover:
-  image: /blog/2024/blue-wall.png
+  image: images/blogs/2024/blue-wall.png
   caption: "Generated using [OG Image Playground by Vercel](https://og-playground.vercel.app/)"
 draft: false
 ShowToc: true
@@ -11,7 +11,7 @@ ShowToc: true
 
 In today's digital world, having a personal website is a great way to showcase your work, share your thoughts, and build your online presence. In this guide, I'll show you how to create your website using **Hugo** and automate its deployment with **GitHub Actions**.
 
-![image](/blog/2024/blue-wall.png)
+![image](/personal-website/images/blogs/2024/blue-wall.png)
 
 ### Why Have a Personal Website?
 
@@ -182,7 +182,7 @@ jobs:
 
 Once you’re done with all the changes, commit and push your code to the GitHub repository. GitHub Actions will automatically deploy your site at:
 
-```
+```bash
 https://yourname.github.io/mysite/
 ```
 

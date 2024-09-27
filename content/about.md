@@ -51,7 +51,7 @@ draft: false
   </div>
   <!-- Image Column -->
   <div class="image-column">
-    <img src="/profile-pic.png" alt="Picture of me">
+    <img src="/personal-website/images/others/profile-pic.png" alt="Picture of me">
   </div>
 </div>
 {{< /rawhtml >}}

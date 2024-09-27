@@ -137,8 +137,8 @@ params:
 
   # Label and Analytics Configuration ---------------------------
   label:
-    text: "Rahul Dabgotra" # Label text for logo or branding
-    icon: /apple-touch-icon.png # Path to icon
+    text: "Rahul" # Label text for logo or branding
+    icon: "apple-touch-icon.png" # Path to icon
     iconHeight: 35 # Icon height
   analytics:
     google:
