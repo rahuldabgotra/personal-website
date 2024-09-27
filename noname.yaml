@@ -1,4 +1,6 @@
-baseURL: "https://rahuldabgotra.github.io/personal-website/" # Base URL for the website 
+baseURL: "https://personal-website/" # Base URL for the website (use absolute URL for deployment)
+# baseURL: "https://rahuldabgotra.github.io/personal-website/"
+# https://github.com/rahuldabgotra/personal-website/
 languageCode: en-us # Language setting
 title: Rahul Dabgotra # Website title
 theme: PaperMod # Theme being used
@@ -70,7 +72,6 @@ params:
     Title: "Hy, I’m Rahul" 
     Content: >
       👋Welcome to my website!
-
       - Here you’ll find a lot of insight about tech from my perspective 😎.
 
   # Social Media Links -----------------------------
@@ -137,7 +138,7 @@ params:
 
   # Label and Analytics Configuration ---------------------------
   label:
-    text: "Rahul Dabgotra" # Label text for logo or branding
+    text: "RAHUL" # Label text for logo or branding
     icon: /apple-touch-icon.png # Path to icon
     iconHeight: 35 # Icon height
   analytics:

@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+ShowBreadCrumbs: false
 draft: false
 ---
 
@@ -50,7 +51,7 @@ draft: false
   </div>
   <!-- Image Column -->
   <div class="image-column">
-    <img src="../static/profile-pic.png" alt="Picture of me">
+    <img src="/profile-pic.png" alt="Picture of me">
   </div>
 </div>
 {{< /rawhtml >}}
