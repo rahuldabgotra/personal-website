@@ -5,8 +5,8 @@ tags: ["Hugo"]
 cover:
   image: images/blogs/2024/blue-wall.png
   caption: "Generated using [OG Image Playground by Vercel](https://og-playground.vercel.app/)"
-draft: false
 ShowToc: true
+draft: false
 ---
 
 In today's digital world, having a personal website is a great way to showcase your work, share your thoughts, and build your online presence. In this guide, I'll show you how to create your website using **Hugo** and automate its deployment with **GitHub Actions**.
@@ -16,6 +16,7 @@ In today's digital world, having a personal website is a great way to showcase y
 ### Why Have a Personal Website?
 
 Whether it's to share your portfolio, write blogs, or have a simple online presence, having a personal website is crucial. The great news is, you can manage it with markdown files on GitHub. Let’s walk through the steps to build and deploy your site.
+
 ***
 
 ### Prerequisites

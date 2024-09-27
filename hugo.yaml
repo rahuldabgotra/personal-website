@@ -115,10 +115,10 @@ params:
   hideSummary: false # Show summaries of posts
 
   # Edit Post Link Configuration -------------------
-  editPost:
-    URL: "https://github.com/rahuldabgotra/personal-website/content"
-    Text: "Suggest Changes"
-    appendFilePath: true
+  # editPost:
+  #   URL: "https://github.com/rahuldabgotra/personal-website/tree/main/content"
+  #   Text: "Suggest Changes"
+  #   appendFilePath: true
 
   # Cover Image Settings ---------------------------
   cover:
@@ -136,10 +136,10 @@ params:
     apple_touch_icon: "apple-touch-icon.png" # Apple touch icon
 
   # Label and Analytics Configuration ---------------------------
-  label:
-    text: "Rahul" # Label text for logo or branding
-    icon: "apple-touch-icon.png" # Path to icon
-    iconHeight: 35 # Icon height
+  # label:
+  #   text: "Rahul" # Label text for logo or branding
+  #   icon: "apple-touch-icon.png" # Path to icon
+  #   iconHeight: 35 # Icon height
   analytics:
     google:
       SiteVerificationTag: "XYZabc" # Google Site Verification Tag
