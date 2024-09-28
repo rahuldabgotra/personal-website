@@ -51,7 +51,7 @@ draft: false
   </div>
   <!-- Image Column -->
   <div class="image-column">
-    <img src="/personal-website/images/others/profile-pic.png" alt="Picture of me">
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQExEhsNi_GU8w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723567881028?e=1732752000&v=beta&t=FpksDZAQ9F-R4HPIK1uwCFogliqzOvoJhzeIgvxIsNI" alt="Picture of me">
   </div>
 </div>
 {{< /rawhtml >}}
