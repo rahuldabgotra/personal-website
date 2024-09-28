@@ -1,3 +1,44 @@
 .chroma {
     background-color: unset;
 }
+
+/* THEME */
+:root {
+    --gap: 24px;
+    --content-gap: 20px;
+    --nav-width: 720px;
+    --main-width: 720px;
+    --header-height: 60px;
+    --footer-height: 60px;
+    --radius: 8px;
+    --theme: rgb(245, 245, 245); /* Softer, warm white */
+    --entry: rgb(245, 245, 245); /* Keep inputs pure white for clarity */
+    --primary: rgb(50, 50, 50); /* Slightly lighter dark for main text */
+    --secondary: rgb(85, 85, 85); /* Neutral secondary text */
+    --tertiary: rgb(160, 160, 160); /* Softer grey for tertiary elements */
+    --content: rgb(55, 55, 55); /* Softer dark for main content */
+    --code-block-bg: rgb(50, 50, 50); /* Softer dark for code blocks */
+    --code-bg: rgb(230, 230, 230); /* Grey tone for code blocks */
+    --border: rgb(210, 210, 210); /* Softer borders for harmony */
+}
+
+.dark {
+ /* Balanced Dark Theme Colors */
+    --theme: rgb(30, 31, 34); /* Darker, but not pure black background */
+    --entry: rgb(40, 40, 45); /* Brighter input background for readability */
+    --primary: rgb(225, 225, 230); /* Off-white text for less strain */
+    --secondary: rgb(145, 145, 150); /* Softer secondary text */
+    --tertiary: rgb(100, 100, 105); /* Soft grey for tertiary elements */
+    --content: rgb(190, 190, 195); /* Lighter grey for readable content */
+    --code-block-bg: rgb(45, 45, 50); /* Softer dark for code blocks */
+    --code-bg: rgb(70, 70, 75); /* Grey tone for code blocks */
+    --border: rgb(75, 75, 80); /* Softer dark borders */
+}
+
+.list {
+    background: var(--code-bg); /* Matches code block background */
+}
+
+.dark.list {
+    background: var(--theme); /* Matches dark theme background */
+}

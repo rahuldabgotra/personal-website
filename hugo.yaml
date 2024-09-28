@@ -94,7 +94,7 @@ params:
   DateFormat: "2 January, 2006" # Date format used in posts
   defaultTheme: auto # Automatic dark/light theme toggle
   disableThemeToggle: false # Allow theme switching
-  ShowBreadCrumbs: true # Show breadcrumb navigation
+  ShowBreadCrumbs: false # Show breadcrumb navigation
   ShowReadingTime: false # Don't show estimated reading time
   UseHugoToc: false # Don't use Hugo's table of contents
   showtoc: false # Don't display table of contents

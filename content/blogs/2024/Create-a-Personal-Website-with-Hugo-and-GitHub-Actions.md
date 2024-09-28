@@ -1,6 +1,6 @@
 ---
 title: 'Create a Personal Website with Hugo and GitHub Actions'
-date: 2024-09-27
+date: 2024-09-28
 tags: ["Hugo"]
 cover:
   image: images/blogs/2024/blue-wall.png
