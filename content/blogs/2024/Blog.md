@@ -2,7 +2,7 @@
 title: "Blog 2"
 date: 2024-09-27T23:13:22+05:30
 tags: ["Linux", "Git", "JAVA", "Spring Boot", "Testing", "Database", "CI/CD"]
-draft: false
+draft: true
 ---
 
 Description .. (Attention grabbing for website blogs list. Should be short and relavant to topic)
@@ -49,6 +49,7 @@ Paragraphs
 #### Image
 
 ![image](/personal-website/images/blogs/2024/IMAGE_NAME))
+images stored in /static/images/
 
 #### Callout
 
