@@ -1,6 +1,6 @@
 ---
 title: "Book Loop App"
-date: 2024-10-06T23:13:22+05:30
+date: 2024-10-05T23:13:22+05:30
 tags: ["Projects"]
 cover:
   image: images/projects/Project-Book-Loop-App.png
