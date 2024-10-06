@@ -51,7 +51,7 @@ draft: false
   </div>
   <!-- Image Column -->
   <div class="image-column">
-    <img src="https://media.licdn.com/dms/image/v2/D4E03AQExEhsNi_GU8w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723567881028?e=1732752000&v=beta&t=FpksDZAQ9F-R4HPIK1uwCFogliqzOvoJhzeIgvxIsNI" alt="Picture of me">
+    <img src="https://media.licdn.com/dms/image/v2/D5603AQF0B9GImG8D9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1728210434173?e=1733961600&v=beta&t=Ra-Mp6A_-BU6fw_1mw4_E1pd0EqszMWp_vJSW9eRMr4" alt="Picture of me">
   </div>
 </div>
 {{< /rawhtml >}}
