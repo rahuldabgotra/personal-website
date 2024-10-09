@@ -77,7 +77,7 @@ We welcome contributions to blog posts or website improvements:
 
 ## Badges
 
-![Hugo Version](https://img.shields.io/badge/Hugo-0.115.3-blue.svg) ![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)
+![Hugo Version](https://img.shields.io/badge/Hugo-0.134.1-red.svg)
 
 ## License
 
